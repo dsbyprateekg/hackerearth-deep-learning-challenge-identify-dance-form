@@ -1,0 +1,14 @@
+net.optimized_memory = 0 
+batch = 1, time_steps = 1, train = 0 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+
+ seen 64, trained: 1024 K-images (16 Kilo-batches_64) 
+
+ try to allocate additional workspace_size = 52.43 MB 
+ CUDA allocate done! 
+ classes = 8, output in cfg = 39 
+
+ Error: num of filters = 6591 in the last conv-layer in cfg-file doesn't match to classes = 8 in data-file 
+Enter Image Path: 
