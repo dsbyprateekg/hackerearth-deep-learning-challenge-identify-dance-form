@@ -41,5 +41,6 @@ https://www.kaggle.com/iamprateek/yolo4dance-weights
 https://github.com/dsbyprateekg/hackerearth-deep-learning-challenge-identify-dance-form
 
 ### My Blog Post ###
+http://dsbyprateekg.blogspot.com/2020/07/my-solution-to-hackerearths-identify.html
 ![Alt text](pg.JPG?raw=true "Author of the blog")
 
