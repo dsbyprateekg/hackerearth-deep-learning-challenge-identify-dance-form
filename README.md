@@ -40,3 +40,6 @@ https://www.kaggle.com/iamprateek/yolo4dance-weights
 ### My Github Repo link ###
 https://github.com/dsbyprateekg/hackerearth-deep-learning-challenge-identify-dance-form
 
+### My Blog Post ###
+![Alt text](pg.JPG?raw=true "Author of the blog")
+
