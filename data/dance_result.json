@@ -1,14 +1,1113 @@
-net.optimized_memory = 0 
-batch = 1, time_steps = 1, train = 0 
-nms_kind: greedynms (1), beta = 0.600000 
-nms_kind: greedynms (1), beta = 0.600000 
-nms_kind: greedynms (1), beta = 0.600000 
+[
+{
+ "frame_id":1, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/108.jpg", 
+ "objects": [ 
+  {"class_id":4, "name":"manipuri", "relative_coordinates":{"center_x":0.504337, "center_y":0.523033, "width":0.911521, "height":0.961385}, "confidence":0.990346}
+ ] 
+}, 
+{
+ "frame_id":2, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/11.jpg", 
+ "objects": [ 
+  {"class_id":1, "name":"kathak", "relative_coordinates":{"center_x":0.501643, "center_y":0.500445, "width":0.949812, "height":0.917863}, "confidence":0.996380}
+ ] 
+}, 
+{
+ "frame_id":3, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/110.jpg", 
+ "objects": [ 
+  {"class_id":4, "name":"manipuri", "relative_coordinates":{"center_x":0.413985, "center_y":0.580866, "width":0.757102, "height":0.794119}, "confidence":0.988966}
+ ] 
+}, 
+{
+ "frame_id":4, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/112.jpg", 
+ "objects": [ 
+  {"class_id":3, "name":"kuchipudi", "relative_coordinates":{"center_x":0.470368, "center_y":0.479396, "width":0.785421, "height":0.906772}, "confidence":0.984485}
+ ] 
+}, 
+{
+ "frame_id":5, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/114.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"bharatanatyam", "relative_coordinates":{"center_x":0.502868, "center_y":0.517407, "width":0.927437, "height":0.827642}, "confidence":0.987038}
+ ] 
+}, 
+{
+ "frame_id":6, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/119.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"bharatanatyam", "relative_coordinates":{"center_x":0.522370, "center_y":0.501770, "width":0.917171, "height":0.953981}, "confidence":0.998904}
+ ] 
+}, 
+{
+ "frame_id":7, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/125.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"bharatanatyam", "relative_coordinates":{"center_x":0.453324, "center_y":0.504268, "width":0.904895, "height":1.004488}, "confidence":0.382691}
+ ] 
+}, 
+{
+ "frame_id":8, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/128.jpg", 
+ "objects": [ 
+  {"class_id":3, "name":"kuchipudi", "relative_coordinates":{"center_x":0.477575, "center_y":0.481652, "width":0.594750, "height":0.969250}, "confidence":0.634934}, 
+  {"class_id":0, "name":"bharatanatyam", "relative_coordinates":{"center_x":0.444672, "center_y":0.483119, "width":0.617925, "height":0.964941}, "confidence":0.652351}
+ ] 
+}, 
+{
+ "frame_id":9, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/129.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"bharatanatyam", "relative_coordinates":{"center_x":0.495135, "center_y":0.453473, "width":0.700831, "height":0.865874}, "confidence":0.326530}, 
+  {"class_id":3, "name":"kuchipudi", "relative_coordinates":{"center_x":0.500020, "center_y":0.496639, "width":0.784164, "height":0.886129}, "confidence":0.849463}
+ ] 
+}, 
+{
+ "frame_id":10, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/13.jpg", 
+ "objects": [ 
+  {"class_id":1, "name":"kathak", "relative_coordinates":{"center_x":0.507832, "center_y":0.515968, "width":0.891687, "height":0.955526}, "confidence":0.993612}
+ ] 
+}, 
+{
+ "frame_id":11, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/132.jpg", 
+ "objects": [ 
+  {"class_id":3, "name":"kuchipudi", "relative_coordinates":{"center_x":0.492346, "center_y":0.528156, "width":0.778872, "height":0.789800}, "confidence":0.666449}
+ ] 
+}, 
+{
+ "frame_id":12, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/138.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"bharatanatyam", "relative_coordinates":{"center_x":0.519486, "center_y":0.504901, "width":0.706234, "height":0.847666}, "confidence":0.771088}
+ ] 
+}, 
+{
+ "frame_id":13, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/14.jpg", 
+ "objects": [ 
+  {"class_id":1, "name":"kathak", "relative_coordinates":{"center_x":0.469175, "center_y":0.515331, "width":0.349215, "height":0.936504}, "confidence":0.988148}
+ ] 
+}, 
+{
+ "frame_id":14, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/145.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"bharatanatyam", "relative_coordinates":{"center_x":0.490536, "center_y":0.525056, "width":0.825204, "height":0.853370}, "confidence":0.995972}
+ ] 
+}, 
+{
+ "frame_id":15, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/146.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"bharatanatyam", "relative_coordinates":{"center_x":0.504074, "center_y":0.511318, "width":0.822910, "height":0.980377}, "confidence":0.992190}
+ ] 
+}, 
+{
+ "frame_id":16, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/147.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"bharatanatyam", "relative_coordinates":{"center_x":0.556100, "center_y":0.509772, "width":0.803754, "height":0.860790}, "confidence":0.980943}
+ ] 
+}, 
+{
+ "frame_id":17, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/150.jpg", 
+ "objects": [ 
+  {"class_id":3, "name":"kuchipudi", "relative_coordinates":{"center_x":0.574327, "center_y":0.525473, "width":0.528610, "height":0.874211}, "confidence":0.940649}
+ ] 
+}, 
+{
+ "frame_id":18, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/152.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"bharatanatyam", "relative_coordinates":{"center_x":0.497890, "center_y":0.526499, "width":0.730156, "height":0.991606}, "confidence":0.991503}
+ ] 
+}, 
+{
+ "frame_id":19, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/157.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"bharatanatyam", "relative_coordinates":{"center_x":0.426338, "center_y":0.493259, "width":0.580741, "height":0.973857}, "confidence":0.840599}
+ ] 
+}, 
+{
+ "frame_id":20, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/162.jpg", 
+ "objects": [ 
+  {"class_id":3, "name":"kuchipudi", "relative_coordinates":{"center_x":0.553096, "center_y":0.511748, "width":0.906589, "height":0.999361}, "confidence":0.688500}, 
+  {"class_id":6, "name":"odissi", "relative_coordinates":{"center_x":0.449848, "center_y":0.503721, "width":0.852335, "height":0.985749}, "confidence":0.411601}
+ ] 
+}, 
+{
+ "frame_id":21, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/17.jpg", 
+ "objects": [ 
+  {"class_id":1, "name":"kathak", "relative_coordinates":{"center_x":0.504938, "center_y":0.561536, "width":0.878743, "height":0.932104}, "confidence":0.975843}
+ ] 
+}, 
+{
+ "frame_id":22, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/170.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"bharatanatyam", "relative_coordinates":{"center_x":0.500997, "center_y":0.499731, "width":0.861238, "height":0.936210}, "confidence":0.997795}
+ ] 
+}, 
+{
+ "frame_id":23, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/171.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"bharatanatyam", "relative_coordinates":{"center_x":0.492803, "center_y":0.506974, "width":0.939184, "height":0.921347}, "confidence":0.992887}
+ ] 
+}, 
+{
+ "frame_id":24, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/173.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"bharatanatyam", "relative_coordinates":{"center_x":0.477822, "center_y":0.503094, "width":0.869622, "height":1.051310}, "confidence":0.984830}
+ ] 
+}, 
+{
+ "frame_id":25, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/175.jpg", 
+ "objects": [ 
+  {"class_id":3, "name":"kuchipudi", "relative_coordinates":{"center_x":0.452619, "center_y":0.516215, "width":0.814003, "height":0.884185}, "confidence":0.274827}, 
+  {"class_id":0, "name":"bharatanatyam", "relative_coordinates":{"center_x":0.482642, "center_y":0.517589, "width":0.764420, "height":0.878813}, "confidence":0.938751}
+ ] 
+}, 
+{
+ "frame_id":26, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/183.jpg", 
+ "objects": [ 
+  {"class_id":2, "name":"kathakali", "relative_coordinates":{"center_x":0.502487, "center_y":0.496169, "width":0.882910, "height":0.912286}, "confidence":0.995545}
+ ] 
+}, 
+{
+ "frame_id":27, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/189.jpg", 
+ "objects": [ 
+  {"class_id":2, "name":"kathakali", "relative_coordinates":{"center_x":0.507702, "center_y":0.575375, "width":0.934111, "height":0.863521}, "confidence":0.995488}
+ ] 
+}, 
+{
+ "frame_id":28, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/193.jpg", 
+ "objects": [ 
+  {"class_id":2, "name":"kathakali", "relative_coordinates":{"center_x":0.482059, "center_y":0.498801, "width":0.853619, "height":1.022234}, "confidence":0.980377}
+ ] 
+}, 
+{
+ "frame_id":29, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/194.jpg", 
+ "objects": [ 
+  {"class_id":2, "name":"kathakali", "relative_coordinates":{"center_x":0.480240, "center_y":0.523397, "width":0.885134, "height":0.892792}, "confidence":0.986499}
+ ] 
+}, 
+{
+ "frame_id":30, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/196.jpg", 
+ "objects": [ 
+  {"class_id":2, "name":"kathakali", "relative_coordinates":{"center_x":0.559036, "center_y":0.505817, "width":0.759137, "height":0.910839}, "confidence":0.989977}
+ ] 
+}, 
+{
+ "frame_id":31, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/198.jpg", 
+ "objects": [ 
+  {"class_id":2, "name":"kathakali", "relative_coordinates":{"center_x":0.515539, "center_y":0.501021, "width":0.806546, "height":0.902928}, "confidence":0.993514}
+ ] 
+}, 
+{
+ "frame_id":32, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/20.jpg", 
+ "objects": [ 
+  {"class_id":1, "name":"kathak", "relative_coordinates":{"center_x":0.481828, "center_y":0.550001, "width":0.852759, "height":0.863508}, "confidence":0.987828}
+ ] 
+}, 
+{
+ "frame_id":33, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/200.jpg", 
+ "objects": [ 
+  {"class_id":2, "name":"kathakali", "relative_coordinates":{"center_x":0.521459, "center_y":0.513433, "width":0.892475, "height":1.001346}, "confidence":0.985527}
+ ] 
+}, 
+{
+ "frame_id":34, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/202.jpg", 
+ "objects": [ 
+  {"class_id":2, "name":"kathakali", "relative_coordinates":{"center_x":0.513271, "center_y":0.509489, "width":0.945184, "height":0.943674}, "confidence":0.987660}
+ ] 
+}, 
+{
+ "frame_id":35, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/206.jpg", 
+ "objects": [ 
+  {"class_id":2, "name":"kathakali", "relative_coordinates":{"center_x":0.488750, "center_y":0.495890, "width":0.907488, "height":0.956278}, "confidence":0.995371}
+ ] 
+}, 
+{
+ "frame_id":36, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/210.jpg", 
+ "objects": [ 
+  {"class_id":2, "name":"kathakali", "relative_coordinates":{"center_x":0.490727, "center_y":0.523367, "width":0.883667, "height":0.963458}, "confidence":0.991539}
+ ] 
+}, 
+{
+ "frame_id":37, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/215.jpg", 
+ "objects": [ 
+  {"class_id":2, "name":"kathakali", "relative_coordinates":{"center_x":0.481255, "center_y":0.515507, "width":0.880540, "height":0.993328}, "confidence":0.994271}
+ ] 
+}, 
+{
+ "frame_id":38, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/216.jpg", 
+ "objects": [ 
+  {"class_id":2, "name":"kathakali", "relative_coordinates":{"center_x":0.510973, "center_y":0.520405, "width":0.869230, "height":0.919779}, "confidence":0.992414}
+ ] 
+}, 
+{
+ "frame_id":39, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/217.jpg", 
+ "objects": [ 
+  {"class_id":2, "name":"kathakali", "relative_coordinates":{"center_x":0.519823, "center_y":0.512931, "width":0.928816, "height":0.931460}, "confidence":0.992192}
+ ] 
+}, 
+{
+ "frame_id":40, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/220.jpg", 
+ "objects": [ 
+  {"class_id":2, "name":"kathakali", "relative_coordinates":{"center_x":0.502511, "center_y":0.517660, "width":0.946969, "height":0.926272}, "confidence":0.992110}
+ ] 
+}, 
+{
+ "frame_id":41, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/224.jpg", 
+ "objects": [ 
+  {"class_id":2, "name":"kathakali", "relative_coordinates":{"center_x":0.417640, "center_y":0.511254, "width":0.897554, "height":0.938624}, "confidence":0.996497}
+ ] 
+}, 
+{
+ "frame_id":42, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/226.jpg", 
+ "objects": [ 
+  {"class_id":2, "name":"kathakali", "relative_coordinates":{"center_x":0.478811, "center_y":0.512430, "width":0.934922, "height":0.917799}, "confidence":0.988155}
+ ] 
+}, 
+{
+ "frame_id":43, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/23.jpg", 
+ "objects": [ 
+  {"class_id":1, "name":"kathak", "relative_coordinates":{"center_x":0.580936, "center_y":0.523874, "width":0.765729, "height":0.879744}, "confidence":0.964176}
+ ] 
+}, 
+{
+ "frame_id":44, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/232.jpg", 
+ "objects": [ 
+  {"class_id":2, "name":"kathakali", "relative_coordinates":{"center_x":0.495362, "center_y":0.518464, "width":0.900067, "height":0.941370}, "confidence":0.988578}
+ ] 
+}, 
+{
+ "frame_id":45, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/238.jpg", 
+ "objects": [ 
+  {"class_id":2, "name":"kathakali", "relative_coordinates":{"center_x":0.515764, "center_y":0.517157, "width":0.866401, "height":0.983621}, "confidence":0.992460}
+ ] 
+}, 
+{
+ "frame_id":46, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/239.jpg", 
+ "objects": [ 
+  {"class_id":2, "name":"kathakali", "relative_coordinates":{"center_x":0.516312, "center_y":0.569603, "width":0.950540, "height":0.857866}, "confidence":0.989592}
+ ] 
+}, 
+{
+ "frame_id":47, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/246.jpg", 
+ "objects": [ 
+  {"class_id":5, "name":"mohiniyattam", "relative_coordinates":{"center_x":0.488818, "center_y":0.507032, "width":0.844095, "height":0.990804}, "confidence":0.977642}
+ ] 
+}, 
+{
+ "frame_id":48, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/256.jpg", 
+ "objects": [ 
+  {"class_id":5, "name":"mohiniyattam", "relative_coordinates":{"center_x":0.432938, "center_y":0.512870, "width":0.813752, "height":0.904933}, "confidence":0.975863}
+ ] 
+}, 
+{
+ "frame_id":49, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/264.jpg", 
+ "objects": [ 
+  {"class_id":5, "name":"mohiniyattam", "relative_coordinates":{"center_x":0.477118, "center_y":0.526735, "width":0.718615, "height":0.831449}, "confidence":0.906262}
+ ] 
+}, 
+{
+ "frame_id":50, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/269.jpg", 
+ "objects": [ 
+  {"class_id":6, "name":"odissi", "relative_coordinates":{"center_x":0.436622, "center_y":0.507741, "width":0.772288, "height":1.020732}, "confidence":0.821803}
+ ] 
+}, 
+{
+ "frame_id":51, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/270.jpg", 
+ "objects": [ 
+  {"class_id":5, "name":"mohiniyattam", "relative_coordinates":{"center_x":0.508268, "center_y":0.557489, "width":0.871645, "height":0.891865}, "confidence":0.956477}
+ ] 
+}, 
+{
+ "frame_id":52, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/271.jpg", 
+ "objects": [ 
+  {"class_id":5, "name":"mohiniyattam", "relative_coordinates":{"center_x":0.506205, "center_y":0.512953, "width":0.720736, "height":0.940351}, "confidence":0.992754}
+ ] 
+}, 
+{
+ "frame_id":53, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/275.jpg", 
+ "objects": [ 
+  {"class_id":5, "name":"mohiniyattam", "relative_coordinates":{"center_x":0.494603, "center_y":0.508527, "width":0.848476, "height":1.018221}, "confidence":0.985137}
+ ] 
+}, 
+{
+ "frame_id":54, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/278.jpg", 
+ "objects": [ 
+  {"class_id":5, "name":"mohiniyattam", "relative_coordinates":{"center_x":0.489266, "center_y":0.518769, "width":0.738562, "height":0.935934}, "confidence":0.996066}
+ ] 
+}, 
+{
+ "frame_id":55, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/28.jpg", 
+ "objects": [ 
+  {"class_id":1, "name":"kathak", "relative_coordinates":{"center_x":0.491500, "center_y":0.505797, "width":0.877162, "height":0.932338}, "confidence":0.998238}
+ ] 
+}, 
+{
+ "frame_id":56, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/280.jpg", 
+ "objects": [ 
+  {"class_id":5, "name":"mohiniyattam", "relative_coordinates":{"center_x":0.506994, "center_y":0.559636, "width":0.894829, "height":0.913201}, "confidence":0.788585}
+ ] 
+}, 
+{
+ "frame_id":57, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/283.jpg", 
+ "objects": [ 
+  {"class_id":5, "name":"mohiniyattam", "relative_coordinates":{"center_x":0.513000, "center_y":0.528047, "width":0.916636, "height":0.914839}, "confidence":0.990940}
+ ] 
+}, 
+{
+ "frame_id":58, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/284.jpg", 
+ "objects": [ 
+  {"class_id":5, "name":"mohiniyattam", "relative_coordinates":{"center_x":0.567147, "center_y":0.500308, "width":0.490904, "height":0.963131}, "confidence":0.950677}
+ ] 
+}, 
+{
+ "frame_id":59, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/285.jpg", 
+ "objects": [ 
+  {"class_id":5, "name":"mohiniyattam", "relative_coordinates":{"center_x":0.574261, "center_y":0.507336, "width":0.778005, "height":1.036783}, "confidence":0.736047}
+ ] 
+}, 
+{
+ "frame_id":60, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/286.jpg", 
+ "objects": [ 
+  {"class_id":5, "name":"mohiniyattam", "relative_coordinates":{"center_x":0.553372, "center_y":0.530373, "width":0.822177, "height":0.868453}, "confidence":0.990022}
+ ] 
+}, 
+{
+ "frame_id":61, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/290.jpg", 
+ "objects": [ 
+  {"class_id":5, "name":"mohiniyattam", "relative_coordinates":{"center_x":0.490268, "center_y":0.514399, "width":0.807205, "height":0.939892}, "confidence":0.994075}
+ ] 
+}, 
+{
+ "frame_id":62, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/291.jpg", 
+ "objects": [ 
+  {"class_id":5, "name":"mohiniyattam", "relative_coordinates":{"center_x":0.504122, "center_y":0.530020, "width":0.807510, "height":0.956219}, "confidence":0.974398}
+ ] 
+}, 
+{
+ "frame_id":63, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/292.jpg", 
+ "objects": [ 
+  {"class_id":5, "name":"mohiniyattam", "relative_coordinates":{"center_x":0.492109, "center_y":0.517189, "width":0.800006, "height":0.822148}, "confidence":0.996325}
+ ] 
+}, 
+{
+ "frame_id":64, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/301.jpg", 
+ "objects": [ 
+  {"class_id":5, "name":"mohiniyattam", "relative_coordinates":{"center_x":0.438930, "center_y":0.510152, "width":0.768588, "height":0.996919}, "confidence":0.905821}
+ ] 
+}, 
+{
+ "frame_id":65, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/302.jpg", 
+ "objects": [ 
+  {"class_id":5, "name":"mohiniyattam", "relative_coordinates":{"center_x":0.487984, "center_y":0.518689, "width":0.747940, "height":0.938769}, "confidence":0.996429}
+ ] 
+}, 
+{
+ "frame_id":66, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/306.jpg", 
+ "objects": [ 
+  {"class_id":5, "name":"mohiniyattam", "relative_coordinates":{"center_x":0.584753, "center_y":0.507342, "width":0.728910, "height":0.990399}, "confidence":0.730233}
+ ] 
+}, 
+{
+ "frame_id":67, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/316.jpg", 
+ "objects": [ 
+  {"class_id":7, "name":"sattriya", "relative_coordinates":{"center_x":0.498611, "center_y":0.503234, "width":0.763265, "height":0.988298}, "confidence":0.985010}
+ ] 
+}, 
+{
+ "frame_id":68, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/317.jpg", 
+ "objects": [ 
+  {"class_id":7, "name":"sattriya", "relative_coordinates":{"center_x":0.468958, "center_y":0.504328, "width":0.796535, "height":1.010967}, "confidence":0.548563}, 
+  {"class_id":1, "name":"kathak", "relative_coordinates":{"center_x":0.424902, "center_y":0.506590, "width":0.707369, "height":0.943494}, "confidence":0.382467}
+ ] 
+}, 
+{
+ "frame_id":69, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/318.jpg", 
+ "objects": [ 
+  {"class_id":7, "name":"sattriya", "relative_coordinates":{"center_x":0.518585, "center_y":0.527282, "width":0.722408, "height":0.790716}, "confidence":0.893729}
+ ] 
+}, 
+{
+ "frame_id":70, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/323.jpg", 
+ "objects": [ 
+  {"class_id":7, "name":"sattriya", "relative_coordinates":{"center_x":0.495325, "center_y":0.527508, "width":0.884607, "height":0.922246}, "confidence":0.989140}
+ ] 
+}, 
+{
+ "frame_id":71, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/324.jpg", 
+ "objects": [ 
+  {"class_id":7, "name":"sattriya", "relative_coordinates":{"center_x":0.519568, "center_y":0.516470, "width":0.906254, "height":0.960752}, "confidence":0.865708}
+ ] 
+}, 
+{
+ "frame_id":72, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/33.jpg", 
+ "objects": [ 
+  {"class_id":1, "name":"kathak", "relative_coordinates":{"center_x":0.519267, "center_y":0.516113, "width":0.890765, "height":0.958672}, "confidence":0.993029}
+ ] 
+}, 
+{
+ "frame_id":73, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/330.jpg", 
+ "objects": [ 
+  {"class_id":7, "name":"sattriya", "relative_coordinates":{"center_x":0.421187, "center_y":0.523597, "width":0.828944, "height":0.934212}, "confidence":0.979903}
+ ] 
+}, 
+{
+ "frame_id":74, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/332.jpg", 
+ "objects": [ 
+  {"class_id":7, "name":"sattriya", "relative_coordinates":{"center_x":0.499401, "center_y":0.550395, "width":0.919598, "height":0.890293}, "confidence":0.990961}
+ ] 
+}, 
+{
+ "frame_id":75, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/34.jpg", 
+ "objects": [ 
+  {"class_id":1, "name":"kathak", "relative_coordinates":{"center_x":0.521309, "center_y":0.506320, "width":0.836921, "height":0.885829}, "confidence":0.910671}
+ ] 
+}, 
+{
+ "frame_id":76, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/340.jpg", 
+ "objects": [ 
+  {"class_id":7, "name":"sattriya", "relative_coordinates":{"center_x":0.570735, "center_y":0.522056, "width":0.793129, "height":0.970308}, "confidence":0.979840}
+ ] 
+}, 
+{
+ "frame_id":77, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/346.jpg", 
+ "objects": [ 
+  {"class_id":7, "name":"sattriya", "relative_coordinates":{"center_x":0.439675, "center_y":0.496909, "width":0.662877, "height":0.954386}, "confidence":0.946840}
+ ] 
+}, 
+{
+ "frame_id":78, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/349.jpg", 
+ "objects": [ 
+  {"class_id":3, "name":"kuchipudi", "relative_coordinates":{"center_x":0.543731, "center_y":0.508576, "width":0.818351, "height":0.953849}, "confidence":0.699911}
+ ] 
+}, 
+{
+ "frame_id":79, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/35.jpg", 
+ "objects": [ 
+  {"class_id":1, "name":"kathak", "relative_coordinates":{"center_x":0.566397, "center_y":0.524950, "width":0.532056, "height":0.911804}, "confidence":0.993428}
+ ] 
+}, 
+{
+ "frame_id":80, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/354.jpg", 
+ "objects": [ 
+  {"class_id":7, "name":"sattriya", "relative_coordinates":{"center_x":0.508198, "center_y":0.495924, "width":0.946022, "height":0.956299}, "confidence":0.965499}
+ ] 
+}, 
+{
+ "frame_id":81, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/358.jpg", 
+ "objects": [ 
+  {"class_id":7, "name":"sattriya", "relative_coordinates":{"center_x":0.449367, "center_y":0.514593, "width":0.791582, "height":0.899023}, "confidence":0.990071}
+ ] 
+}, 
+{
+ "frame_id":82, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/360.jpg", 
+ "objects": [ 
+  {"class_id":1, "name":"kathak", "relative_coordinates":{"center_x":0.504654, "center_y":0.495227, "width":0.918090, "height":0.935385}, "confidence":0.263108}, 
+  {"class_id":7, "name":"sattriya", "relative_coordinates":{"center_x":0.504654, "center_y":0.495227, "width":0.918090, "height":0.935385}, "confidence":0.362880}
+ ] 
+}, 
+{
+ "frame_id":83, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/363.jpg", 
+ "objects": [ 
 
- seen 64, trained: 1024 K-images (16 Kilo-batches_64) 
+ ] 
+}, 
+{
+ "frame_id":84, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/366.jpg", 
+ "objects": [ 
+  {"class_id":7, "name":"sattriya", "relative_coordinates":{"center_x":0.512421, "center_y":0.487849, "width":0.839230, "height":0.935263}, "confidence":0.991464}
+ ] 
+}, 
+{
+ "frame_id":85, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/373.jpg", 
+ "objects": [ 
+  {"class_id":3, "name":"kuchipudi", "relative_coordinates":{"center_x":0.505147, "center_y":0.506755, "width":0.602067, "height":1.110813}, "confidence":0.798002}
+ ] 
+}, 
+{
+ "frame_id":86, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/374.jpg", 
+ "objects": [ 
+  {"class_id":1, "name":"kathak", "relative_coordinates":{"center_x":0.511544, "center_y":0.507235, "width":0.792243, "height":0.789433}, "confidence":0.274796}, 
+  {"class_id":3, "name":"kuchipudi", "relative_coordinates":{"center_x":0.511544, "center_y":0.507235, "width":0.792243, "height":0.789433}, "confidence":0.298209}
+ ] 
+}, 
+{
+ "frame_id":87, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/375.jpg", 
+ "objects": [ 
+  {"class_id":3, "name":"kuchipudi", "relative_coordinates":{"center_x":0.428784, "center_y":0.495251, "width":0.679200, "height":0.947857}, "confidence":0.595449}
+ ] 
+}, 
+{
+ "frame_id":88, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/378.jpg", 
+ "objects": [ 
+  {"class_id":3, "name":"kuchipudi", "relative_coordinates":{"center_x":0.505726, "center_y":0.517514, "width":0.922471, "height":0.927340}, "confidence":0.990865}
+ ] 
+}, 
+{
+ "frame_id":89, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/38.jpg", 
+ "objects": [ 
+  {"class_id":1, "name":"kathak", "relative_coordinates":{"center_x":0.488081, "center_y":0.524421, "width":0.842868, "height":0.869860}, "confidence":0.991358}
+ ] 
+}, 
+{
+ "frame_id":90, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/380.jpg", 
+ "objects": [ 
+  {"class_id":3, "name":"kuchipudi", "relative_coordinates":{"center_x":0.491912, "center_y":0.499590, "width":0.882754, "height":0.886641}, "confidence":0.998008}
+ ] 
+}, 
+{
+ "frame_id":91, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/385.jpg", 
+ "objects": [ 
+  {"class_id":3, "name":"kuchipudi", "relative_coordinates":{"center_x":0.495793, "center_y":0.510097, "width":0.776590, "height":0.948939}, "confidence":0.918893}
+ ] 
+}, 
+{
+ "frame_id":92, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/386.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"bharatanatyam", "relative_coordinates":{"center_x":0.521185, "center_y":0.526875, "width":0.739720, "height":0.963536}, "confidence":0.752035}
+ ] 
+}, 
+{
+ "frame_id":93, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/390.jpg", 
+ "objects": [ 
+  {"class_id":3, "name":"kuchipudi", "relative_coordinates":{"center_x":0.521027, "center_y":0.479574, "width":0.857633, "height":0.889346}, "confidence":0.987325}
+ ] 
+}, 
+{
+ "frame_id":94, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/392.jpg", 
+ "objects": [ 
+  {"class_id":3, "name":"kuchipudi", "relative_coordinates":{"center_x":0.566048, "center_y":0.525731, "width":0.802112, "height":0.901557}, "confidence":0.938312}
+ ] 
+}, 
+{
+ "frame_id":95, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/394.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"bharatanatyam", "relative_coordinates":{"center_x":0.487635, "center_y":0.509252, "width":0.898096, "height":1.026313}, "confidence":0.979171}
+ ] 
+}, 
+{
+ "frame_id":96, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/398.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"bharatanatyam", "relative_coordinates":{"center_x":0.501044, "center_y":0.485600, "width":0.447300, "height":0.878497}, "confidence":0.430647}
+ ] 
+}, 
+{
+ "frame_id":97, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/40.jpg", 
+ "objects": [ 
+  {"class_id":1, "name":"kathak", "relative_coordinates":{"center_x":0.479459, "center_y":0.497814, "width":0.634331, "height":0.959002}, "confidence":0.997105}
+ ] 
+}, 
+{
+ "frame_id":98, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/401.jpg", 
+ "objects": [ 
+  {"class_id":3, "name":"kuchipudi", "relative_coordinates":{"center_x":0.547325, "center_y":0.504998, "width":0.528337, "height":0.887286}, "confidence":0.493068}, 
+  {"class_id":0, "name":"bharatanatyam", "relative_coordinates":{"center_x":0.526323, "center_y":0.504434, "width":0.542722, "height":0.892604}, "confidence":0.420891}
+ ] 
+}, 
+{
+ "frame_id":99, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/41.jpg", 
+ "objects": [ 
+  {"class_id":3, "name":"kuchipudi", "relative_coordinates":{"center_x":0.489508, "center_y":0.525494, "width":0.677888, "height":0.891039}, "confidence":0.562812}, 
+  {"class_id":5, "name":"mohiniyattam", "relative_coordinates":{"center_x":0.457195, "center_y":0.556254, "width":0.738707, "height":0.840422}, "confidence":0.433722}
+ ] 
+}, 
+{
+ "frame_id":100, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/410.jpg", 
+ "objects": [ 
+  {"class_id":3, "name":"kuchipudi", "relative_coordinates":{"center_x":0.473584, "center_y":0.523521, "width":0.411167, "height":0.999790}, "confidence":0.982134}
+ ] 
+}, 
+{
+ "frame_id":101, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/411.jpg", 
+ "objects": [ 
+  {"class_id":3, "name":"kuchipudi", "relative_coordinates":{"center_x":0.519120, "center_y":0.506397, "width":0.660957, "height":0.957210}, "confidence":0.984385}
+ ] 
+}, 
+{
+ "frame_id":102, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/414.jpg", 
+ "objects": [ 
+  {"class_id":3, "name":"kuchipudi", "relative_coordinates":{"center_x":0.492390, "center_y":0.503311, "width":0.924957, "height":0.974378}, "confidence":0.964462}
+ ] 
+}, 
+{
+ "frame_id":103, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/416.jpg", 
+ "objects": [ 
+  {"class_id":3, "name":"kuchipudi", "relative_coordinates":{"center_x":0.516686, "center_y":0.521073, "width":0.891728, "height":0.905977}, "confidence":0.873102}
+ ] 
+}, 
+{
+ "frame_id":104, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/421.jpg", 
+ "objects": [ 
+  {"class_id":6, "name":"odissi", "relative_coordinates":{"center_x":0.488133, "center_y":0.485230, "width":0.774279, "height":0.784270}, "confidence":0.991589}
+ ] 
+}, 
+{
+ "frame_id":105, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/424.jpg", 
+ "objects": [ 
+  {"class_id":3, "name":"kuchipudi", "relative_coordinates":{"center_x":0.416899, "center_y":0.556849, "width":0.625956, "height":0.793029}, "confidence":0.837879}
+ ] 
+}, 
+{
+ "frame_id":106, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/429.jpg", 
+ "objects": [ 
+  {"class_id":3, "name":"kuchipudi", "relative_coordinates":{"center_x":0.503265, "center_y":0.543296, "width":0.826603, "height":0.922308}, "confidence":0.533297}, 
+  {"class_id":0, "name":"bharatanatyam", "relative_coordinates":{"center_x":0.504964, "center_y":0.528747, "width":0.770999, "height":0.907928}, "confidence":0.775844}
+ ] 
+}, 
+{
+ "frame_id":107, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/431.jpg", 
+ "objects": [ 
+  {"class_id":0, "name":"bharatanatyam", "relative_coordinates":{"center_x":0.498249, "center_y":0.500331, "width":0.930243, "height":0.929322}, "confidence":0.585880}, 
+  {"class_id":1, "name":"kathak", "relative_coordinates":{"center_x":0.499262, "center_y":0.500564, "width":0.932528, "height":0.933109}, "confidence":0.645153}
+ ] 
+}, 
+{
+ "frame_id":108, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/437.jpg", 
+ "objects": [ 
+  {"class_id":1, "name":"kathak", "relative_coordinates":{"center_x":0.490044, "center_y":0.455658, "width":0.392377, "height":0.991047}, "confidence":0.282040}, 
+  {"class_id":3, "name":"kuchipudi", "relative_coordinates":{"center_x":0.494417, "center_y":0.474559, "width":0.412419, "height":0.968463}, "confidence":0.721406}
+ ] 
+}, 
+{
+ "frame_id":109, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/438.jpg", 
+ "objects": [ 
+  {"class_id":3, "name":"kuchipudi", "relative_coordinates":{"center_x":0.490511, "center_y":0.553930, "width":0.819131, "height":0.801772}, "confidence":0.972654}
+ ] 
+}, 
+{
+ "frame_id":110, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/439.jpg", 
+ "objects": [ 
+  {"class_id":3, "name":"kuchipudi", "relative_coordinates":{"center_x":0.502918, "center_y":0.502793, "width":0.906397, "height":0.961262}, "confidence":0.999132}
+ ] 
+}, 
+{
+ "frame_id":111, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/440.jpg", 
+ "objects": [ 
+  {"class_id":3, "name":"kuchipudi", "relative_coordinates":{"center_x":0.520489, "center_y":0.517749, "width":0.610847, "height":0.963881}, "confidence":0.943409}
+ ] 
+}, 
+{
+ "frame_id":112, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/441.jpg", 
+ "objects": [ 
+  {"class_id":3, "name":"kuchipudi", "relative_coordinates":{"center_x":0.499315, "center_y":0.511178, "width":0.376449, "height":1.113858}, "confidence":0.470485}
+ ] 
+}, 
+{
+ "frame_id":113, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/447.jpg", 
+ "objects": [ 
+  {"class_id":6, "name":"odissi", "relative_coordinates":{"center_x":0.501801, "center_y":0.506201, "width":0.652492, "height":0.984832}, "confidence":0.991264}
+ ] 
+}, 
+{
+ "frame_id":114, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/448.jpg", 
+ "objects": [ 
+  {"class_id":6, "name":"odissi", "relative_coordinates":{"center_x":0.509139, "center_y":0.526214, "width":0.829195, "height":0.946240}, "confidence":0.983446}
+ ] 
+}, 
+{
+ "frame_id":115, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/45.jpg", 
+ "objects": [ 
+  {"class_id":1, "name":"kathak", "relative_coordinates":{"center_x":0.494928, "center_y":0.583960, "width":1.044880, "height":0.784288}, "confidence":0.986081}
+ ] 
+}, 
+{
+ "frame_id":116, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/456.jpg", 
+ "objects": [ 
+  {"class_id":5, "name":"mohiniyattam", "relative_coordinates":{"center_x":0.514448, "center_y":0.506447, "width":0.766859, "height":0.978688}, "confidence":0.318752}, 
+  {"class_id":6, "name":"odissi", "relative_coordinates":{"center_x":0.548900, "center_y":0.506264, "width":0.825685, "height":1.011862}, "confidence":0.725926}
+ ] 
+}, 
+{
+ "frame_id":117, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/457.jpg", 
+ "objects": [ 
+  {"class_id":3, "name":"kuchipudi", "relative_coordinates":{"center_x":0.501380, "center_y":0.514359, "width":0.854460, "height":0.996786}, "confidence":0.582817}, 
+  {"class_id":6, "name":"odissi", "relative_coordinates":{"center_x":0.501419, "center_y":0.513678, "width":0.869664, "height":1.014340}, "confidence":0.468480}
+ ] 
+}, 
+{
+ "frame_id":118, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/458.jpg", 
+ "objects": [ 
+  {"class_id":6, "name":"odissi", "relative_coordinates":{"center_x":0.495225, "center_y":0.523297, "width":0.594795, "height":0.915203}, "confidence":0.984184}
+ ] 
+}, 
+{
+ "frame_id":119, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/460.jpg", 
+ "objects": [ 
+  {"class_id":6, "name":"odissi", "relative_coordinates":{"center_x":0.496924, "center_y":0.506957, "width":0.786596, "height":0.983856}, "confidence":0.998186}
+ ] 
+}, 
+{
+ "frame_id":120, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/461.jpg", 
+ "objects": [ 
+  {"class_id":6, "name":"odissi", "relative_coordinates":{"center_x":0.487697, "center_y":0.503493, "width":0.874044, "height":0.916689}, "confidence":0.995008}
+ ] 
+}, 
+{
+ "frame_id":121, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/463.jpg", 
+ "objects": [ 
+  {"class_id":6, "name":"odissi", "relative_coordinates":{"center_x":0.561910, "center_y":0.527557, "width":0.670371, "height":0.874054}, "confidence":0.991523}
+ ] 
+}, 
+{
+ "frame_id":122, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/465.jpg", 
+ "objects": [ 
+  {"class_id":3, "name":"kuchipudi", "relative_coordinates":{"center_x":0.494690, "center_y":0.498977, "width":0.872475, "height":1.006377}, "confidence":0.372676}, 
+  {"class_id":0, "name":"bharatanatyam", "relative_coordinates":{"center_x":0.434177, "center_y":0.503659, "width":0.766017, "height":1.000727}, "confidence":0.932295}
+ ] 
+}, 
+{
+ "frame_id":123, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/467.jpg", 
+ "objects": [ 
+  {"class_id":3, "name":"kuchipudi", "relative_coordinates":{"center_x":0.452926, "center_y":0.529096, "width":0.638520, "height":0.907743}, "confidence":0.366565}, 
+  {"class_id":6, "name":"odissi", "relative_coordinates":{"center_x":0.478967, "center_y":0.556177, "width":0.655167, "height":0.922433}, "confidence":0.681587}
+ ] 
+}, 
+{
+ "frame_id":124, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/470.jpg", 
+ "objects": [ 
+  {"class_id":6, "name":"odissi", "relative_coordinates":{"center_x":0.549099, "center_y":0.514299, "width":0.456867, "height":0.965155}, "confidence":0.951619}
+ ] 
+}, 
+{
+ "frame_id":125, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/473.jpg", 
+ "objects": [ 
+  {"class_id":6, "name":"odissi", "relative_coordinates":{"center_x":0.501251, "center_y":0.513053, "width":0.726885, "height":0.905680}, "confidence":0.960715}
+ ] 
+}, 
+{
+ "frame_id":126, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/479.jpg", 
+ "objects": [ 
+  {"class_id":6, "name":"odissi", "relative_coordinates":{"center_x":0.506777, "center_y":0.498407, "width":0.887795, "height":0.978785}, "confidence":0.985254}
+ ] 
+}, 
+{
+ "frame_id":127, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/48.jpg", 
+ "objects": [ 
+  {"class_id":1, "name":"kathak", "relative_coordinates":{"center_x":0.443000, "center_y":0.500173, "width":0.790214, "height":0.944168}, "confidence":0.981363}
+ ] 
+}, 
+{
+ "frame_id":128, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/482.jpg", 
+ "objects": [ 
+  {"class_id":6, "name":"odissi", "relative_coordinates":{"center_x":0.497760, "center_y":0.509271, "width":0.962600, "height":0.922171}, "confidence":0.996101}
+ ] 
+}, 
+{
+ "frame_id":129, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/484.jpg", 
+ "objects": [ 
+  {"class_id":6, "name":"odissi", "relative_coordinates":{"center_x":0.475664, "center_y":0.501464, "width":0.579851, "height":0.999946}, "confidence":0.985851}
+ ] 
+}, 
+{
+ "frame_id":130, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/485.jpg", 
+ "objects": [ 
+  {"class_id":6, "name":"odissi", "relative_coordinates":{"center_x":0.562120, "center_y":0.520582, "width":0.715456, "height":0.877752}, "confidence":0.992825}
+ ] 
+}, 
+{
+ "frame_id":131, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/487.jpg", 
+ "objects": [ 
+  {"class_id":6, "name":"odissi", "relative_coordinates":{"center_x":0.503524, "center_y":0.497899, "width":0.607754, "height":0.833294}, "confidence":0.996835}
+ ] 
+}, 
+{
+ "frame_id":132, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/495.jpg", 
+ "objects": [ 
+  {"class_id":6, "name":"odissi", "relative_coordinates":{"center_x":0.594351, "center_y":0.506385, "width":0.575160, "height":0.964308}, "confidence":0.987506}
+ ] 
+}, 
+{
+ "frame_id":133, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/498.jpg", 
+ "objects": [ 
+  {"class_id":6, "name":"odissi", "relative_coordinates":{"center_x":0.517129, "center_y":0.522378, "width":0.710229, "height":0.887570}, "confidence":0.926221}
+ ] 
+}, 
+{
+ "frame_id":134, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/505.jpg", 
+ "objects": [ 
+  {"class_id":6, "name":"odissi", "relative_coordinates":{"center_x":0.443860, "center_y":0.497815, "width":0.613918, "height":0.915890}, "confidence":0.958669}
+ ] 
+}, 
+{
+ "frame_id":135, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/506.jpg", 
+ "objects": [ 
+  {"class_id":6, "name":"odissi", "relative_coordinates":{"center_x":0.473765, "center_y":0.518174, "width":0.758470, "height":0.906424}, "confidence":0.971008}
+ ] 
+}, 
+{
+ "frame_id":136, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/507.jpg", 
+ "objects": [ 
+  {"class_id":6, "name":"odissi", "relative_coordinates":{"center_x":0.522680, "center_y":0.549454, "width":0.704354, "height":0.862061}, "confidence":0.982779}
+ ] 
+}, 
+{
+ "frame_id":137, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/508.jpg", 
+ "objects": [ 
+  {"class_id":6, "name":"odissi", "relative_coordinates":{"center_x":0.568517, "center_y":0.506880, "width":0.818585, "height":0.928080}, "confidence":0.971685}
+ ] 
+}, 
+{
+ "frame_id":138, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/510.jpg", 
+ "objects": [ 
+  {"class_id":6, "name":"odissi", "relative_coordinates":{"center_x":0.477360, "center_y":0.503353, "width":0.772257, "height":0.979469}, "confidence":0.830013}
+ ] 
+}, 
+{
+ "frame_id":139, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/514.jpg", 
+ "objects": [ 
+  {"class_id":3, "name":"kuchipudi", "relative_coordinates":{"center_x":0.507021, "center_y":0.513788, "width":0.821467, "height":0.949709}, "confidence":0.620628}
+ ] 
+}, 
+{
+ "frame_id":140, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/517.jpg", 
+ "objects": [ 
+  {"class_id":6, "name":"odissi", "relative_coordinates":{"center_x":0.490815, "center_y":0.547311, "width":0.650169, "height":0.902130}, "confidence":0.934137}
+ ] 
+}, 
+{
+ "frame_id":141, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/518.jpg", 
+ "objects": [ 
+  {"class_id":3, "name":"kuchipudi", "relative_coordinates":{"center_x":0.501709, "center_y":0.519910, "width":0.846958, "height":0.893226}, "confidence":0.685029}
+ ] 
+}, 
+{
+ "frame_id":142, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/520.jpg", 
+ "objects": [ 
+  {"class_id":6, "name":"odissi", "relative_coordinates":{"center_x":0.504455, "center_y":0.484292, "width":0.695897, "height":0.942824}, "confidence":0.978542}
+ ] 
+}, 
+{
+ "frame_id":143, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/55.jpg", 
+ "objects": [ 
+  {"class_id":3, "name":"kuchipudi", "relative_coordinates":{"center_x":0.598050, "center_y":0.522553, "width":0.639870, "height":0.782991}, "confidence":0.823640}, 
+  {"class_id":1, "name":"kathak", "relative_coordinates":{"center_x":0.597615, "center_y":0.560229, "width":0.628551, "height":0.784384}, "confidence":0.533589}
+ ] 
+}, 
+{
+ "frame_id":144, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/57.jpg", 
+ "objects": [ 
+  {"class_id":1, "name":"kathak", "relative_coordinates":{"center_x":0.508209, "center_y":0.516928, "width":0.801884, "height":0.922073}, "confidence":0.998682}
+ ] 
+}, 
+{
+ "frame_id":145, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/59.jpg", 
+ "objects": [ 
 
- try to allocate additional workspace_size = 52.43 MB 
- CUDA allocate done! 
- classes = 8, output in cfg = 39 
-
- Error: num of filters = 6591 in the last conv-layer in cfg-file doesn't match to classes = 8 in data-file 
-Enter Image Path: 
+ ] 
+}, 
+{
+ "frame_id":146, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/6.jpg", 
+ "objects": [ 
+  {"class_id":1, "name":"kathak", "relative_coordinates":{"center_x":0.556511, "center_y":0.506179, "width":0.745562, "height":0.963122}, "confidence":0.987067}
+ ] 
+}, 
+{
+ "frame_id":147, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/61.jpg", 
+ "objects": [ 
+  {"class_id":1, "name":"kathak", "relative_coordinates":{"center_x":0.482229, "center_y":0.507827, "width":0.836235, "height":0.955339}, "confidence":0.981756}
+ ] 
+}, 
+{
+ "frame_id":148, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/64.jpg", 
+ "objects": [ 
+  {"class_id":1, "name":"kathak", "relative_coordinates":{"center_x":0.494110, "center_y":0.552010, "width":0.901447, "height":0.845391}, "confidence":0.976842}
+ ] 
+}, 
+{
+ "frame_id":149, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/67.jpg", 
+ "objects": [ 
+  {"class_id":3, "name":"kuchipudi", "relative_coordinates":{"center_x":0.519687, "center_y":0.497204, "width":0.590108, "height":0.848134}, "confidence":0.954981}
+ ] 
+}, 
+{
+ "frame_id":150, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/71.jpg", 
+ "objects": [ 
+  {"class_id":4, "name":"manipuri", "relative_coordinates":{"center_x":0.478471, "center_y":0.517666, "width":0.863091, "height":1.054795}, "confidence":0.988470}
+ ] 
+}, 
+{
+ "frame_id":151, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/80.jpg", 
+ "objects": [ 
+  {"class_id":4, "name":"manipuri", "relative_coordinates":{"center_x":0.495251, "center_y":0.504779, "width":0.790652, "height":0.929457}, "confidence":0.992204}
+ ] 
+}, 
+{
+ "frame_id":152, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/86.jpg", 
+ "objects": [ 
+  {"class_id":2, "name":"kathakali", "relative_coordinates":{"center_x":0.501219, "center_y":0.502712, "width":0.822920, "height":0.896785}, "confidence":0.412666}, 
+  {"class_id":1, "name":"kathak", "relative_coordinates":{"center_x":0.501962, "center_y":0.561370, "width":0.833418, "height":0.822370}, "confidence":0.259843}, 
+  {"class_id":6, "name":"odissi", "relative_coordinates":{"center_x":0.503182, "center_y":0.501746, "width":0.815461, "height":0.905771}, "confidence":0.497887}
+ ] 
+}, 
+{
+ "frame_id":153, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/9.jpg", 
+ "objects": [ 
+  {"class_id":1, "name":"kathak", "relative_coordinates":{"center_x":0.494757, "center_y":0.520538, "width":0.837847, "height":0.978530}, "confidence":0.998633}
+ ] 
+}, 
+{
+ "frame_id":154, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/92.jpg", 
+ "objects": [ 
+  {"class_id":4, "name":"manipuri", "relative_coordinates":{"center_x":0.497751, "center_y":0.521125, "width":0.873344, "height":0.956522}, "confidence":0.996199}
+ ] 
+}, 
+{
+ "frame_id":155, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/95.jpg", 
+ "objects": [ 
+  {"class_id":4, "name":"manipuri", "relative_coordinates":{"center_x":0.481533, "center_y":0.582785, "width":0.875929, "height":0.667766}, "confidence":0.949371}
+ ] 
+}, 
+{
+ "frame_id":156, 
+ "filename":"D:/HackerEarth/identify-dance-form/dataset/test/97.jpg", 
+ "objects": [ 
+  {"class_id":4, "name":"manipuri", "relative_coordinates":{"center_x":0.497872, "center_y":0.550467, "width":0.724021, "height":0.876139}, "confidence":0.984184}
+ ] 
+}
+]
